@@ -1,6 +1,6 @@
 // Set up OpenAI API variables
 const API_URL = 'https://api.openai.com/v1/engines/davinci-codex/completions';
-const API_KEY = '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'; // Replace with your OpenAI API key
+const API_KEY = 'API_KEY'; // Replace with your OpenAI API key
 const HEADERS = {
   'Content-Type': 'application/json',
   'Authorization': `Bearer ${API_KEY}`
